@@ -1,0 +1,519 @@
+*{
+	font-family: 'Quicksand';
+	color:#003245;
+}
+.logoImg{
+	width: 200px;
+	height: 50px;
+}
+.logoHome{
+	width: 300px;
+	height: 50px;
+}
+.section-cont{
+	max-width:950px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 56px;
+}
+.slider-cont{
+	text-align: center;
+	margin-top: 56px;
+}
+.topbar-cont{
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	max-width: 950px;
+	width: 100%;
+	margin: 20px auto 20px auto;
+}
+.estilo-a{
+	text-decoration: none;
+	line-height: 24px;
+	padding: 12px;
+	font-weight: 500;
+	font-size: 18px;
+	cursor: pointer;
+}
+.estilo-a-responsive{
+	text-decoration: none;
+	color:white;
+	line-height: 24px;
+	padding: 20px;
+	font-weight: 500;
+	font-size: 18px;
+	cursor: pointer;
+}
+.creu{
+	color: white;
+	text-align: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.estilo-a:hover{
+	border-bottom: solid #00EDFF;
+	font-weight: 800;
+}
+.link{
+	text-align: right;
+}
+.logo{
+	background-color: #003245;
+	margin-top: 77px;
+}
+.ponentes-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(300px,305px));
+	justify-content: center;
+}
+.titol-border{
+	border-bottom: 3px solid #00EDFF;
+}
+.registre{
+	padding: 10px;
+	background-color: #00EDFF;
+	text-decoration: none;
+}
+.height-home{
+	height: 400px;
+}
+header{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.topbar{
+	height: 56px;
+}
+.barres{
+	text-decoration: none;
+	padding: 12px;
+	display: none;
+}
+section{
+	padding-top: 20px;
+}
+.resum-cont{
+	background-color: #003245;
+}
+.ponenteImg{
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.ponentes-caja{
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+}
+.icono-pilar{
+	width: 40px;
+	height: 40px;
+}
+.click1:hover{
+	background-color: white;
+	
+}
+/*.planoImg:hover{
+	transform: scale(1.3);
+	transition: 0.6s;
+}*/
+.plano-cont{
+	text-align: center;
+}
+.planoImg{
+	width: 100%;
+	height: 300px;
+}
+.bg-1{
+	background-image: url("imagenes/slider/bg-1.jpg");
+	height: 500px;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.bg-2{
+	background-image: url("imagenes/slider/bg-2.jpg");
+	display: flex;
+	height: 500px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.bg-3{
+	background-image: url("imagenes/slider/bg-3.jpg");
+	display: flex;
+	height: 500px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.slider{
+
+}
+.slide-1-info{
+	background-color: #003245;
+	width: 700px;
+	margin: auto auto auto 50px;
+
+}
+.slide-2-info{
+	background-color: #00EDFF;
+	width: 700px;
+	margin: auto 50px auto auto;
+
+}
+.slide-3-info{
+	background-color: #00FF99;
+	width: 700px;
+	margin: auto auto auto 50px;
+
+}
+.slider-image{
+	width: 300px;
+	height: 100px;
+}
+.slider-image2{
+	width: 200px;
+	height: 50px;
+	padding-bottom: 20px;
+}
+.slide-1-titol{
+	width: 300px;
+	height: 100px;
+	padding-left: 40px;
+	padding-top: 10px;
+	
+}
+.slide-2-titol{
+	width: 300px;
+	height: 100px;
+	padding-left: 40px;
+	padding-top: 10px;
+	
+}
+.slide-3-titol{
+	width: 300px;
+	height: 100px;
+	padding-left: 40px;
+	padding-top: 10px;
+	
+}
+.slide-responsive{
+	background-color: #00FF99;
+	padding-top: 76px;
+	text-align: center;
+}
+.logo-des{
+	width: 100px;
+	height: 75px;
+}
+.slide-2-iconos{
+	width: 250px;
+	height: 100px;
+	padding-left: 50px;
+}
+h1.provaxd{
+	color: white;
+}
+.div-blanc h1{
+	color:white;
+}
+.titol-cont{
+	padding-left: 50px;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+.titol-responsive{
+	font-size: 30px;
+	text-align: center;
+}
+.images-responsive{
+	text-align: center;
+}
+.link-responsive{
+	text-align: center;
+	color: #003245;
+	padding-bottom: 30px;
+}
+/*.titol-des{
+	font-size: 20px;
+	margin: auto auto 15px 100px;	
+}*/
+.aligna{
+	text-align: right;
+}
+.trans-responsive{
+	text-decoration: none;
+	cursor: pointer;
+}
+.info-responsive{
+	display: none;
+	text-align: center;
+}
+.ocultar-res{
+	display: none;
+}
+.registro-cont{
+	text-align: center;
+}
+.registro-link{
+	padding: 10px 25px;
+	background-color: #003245;
+	font-size: 25px;
+	font-weight: 500;
+	cursor: pointer;
+	text-decoration: none;
+}
+.registro-link2{
+	padding: 10px 25px;
+	background-color:#00FF99;
+	font-size: 25px;
+	font-weight: 800;
+	cursor: pointer;
+	text-decoration: none;
+}
+.registro-menu{
+	text-decoration: none;
+	padding: 5px 13px;
+	background-color: #00EDFF;
+	font-weight: 800;
+}
+.flex-info{
+	padding-top:20px;
+	display: flex;
+	flex-direction: row;	
+}
+.flex-responsive{
+	display: flex;
+	flex-direction: row;
+	justify-content:  center;
+}
+.color-verd{
+	color: #00FF99;
+}
+.color-blauclar{
+	color:#00EDFF;
+}
+.color-blaufort{
+	color:#003245;
+}
+.color-blanc{
+	color:white;
+}
+.div-blanc h1{
+	color:white;
+}
+.hash{
+	margin: auto auto 10px 170px;
+}
+.agenda-grid{
+	display: grid;
+	grid-template-columns: 1fr 250px 1fr;
+}
+.dies{
+	display: inline;
+}
+.dia{
+	text-decoration: none;
+	background-color: #003245;
+  	color: white;
+ 	padding: 15px;
+	border-radius: 13px;
+}
+.dia:active{
+	box-shadow: none;
+}
+.titol-agenda{
+	color: white;
+	background-color: #003245;
+	cursor: pointer;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	padding-left: 10px;
+}
+.icono-plus{
+	text-align: right;
+}
+.taula{
+	width: 100%;
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.hora-table{
+	width: 200px;
+	text-align: top;
+}
+.ponente-table{
+	width: 300px;
+}
+.hora-des{
+	border-right: solid lightgrey;
+}
+.ponente-des{
+	border-left: solid lightgrey;
+}
+.ailol{
+	padding: 10px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.tab-pilares{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+}
+.caja-tab-pilares{
+	align-items: center;
+	background-color: #003245;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+}
+.caja-tab-pilares:hover, .caja-tab-pilares.on{
+	background-color: #FFF;
+}
+.link-home{
+	text-decoration: none;
+	color: #00EDFF;
+}
+.ocultar-link{
+	display: none;
+}
+.fas{
+	color: #00EDFF;
+}
+.icono-pilar-2{
+	display: none;
+}
+.caja-tab-pilares:hover .icono-pilar-1, .caja-tab-pilares.on .icono-pilar-1, .caja-tab-pilares.on .mostrar-link{
+	display: none;	
+}
+.caja-tab-pilares:hover .icono-pilar-2, .caja-tab-pilares.on .icono-pilar-2, .caja-tab-pilares.on .ocultar-link{
+	display: inline;	
+}
+.caja-tab-pilares:hover > .color-telef, .caja-tab-pilares.on .color-telef{
+	color: #003245;
+}
+.caja-tab-pilares:hover .link-home, .caja-tab-pilares.on .link-home{
+	color: #003245;
+}
+.caja-tab-pilares:hover .fas, .caja-tab-pilares.on .fas{
+	color: #003245;
+}
+.color-telef{
+	color: white;
+}
+.resums{
+	display: none;
+	text-align: left;
+	border-left: solid;
+	padding-left: 30px;
+}
+.bio-link{
+	text-decoration: none;
+	color: #00EDFF;
+}
+.ocultar-bio{
+	display: none;
+}
+.bios{
+	display: none;
+}
+.contacto-div{
+	text-align: left;
+}
+.responsive-resum{
+	display: none;
+}
+.responsive-home{
+	display: none;
+}
+.agenda-cont{
+	display: none;
+}
+.popup{
+	display: none;
+	justify-content: center;
+	background-color: rgba(52, 73, 94,1.0);
+	position: fixed;
+	width: 40%;
+	height: 100vh;
+	top:0;
+	right: 0;
+	z-index: 100;
+}
+.popup-cont{
+	display: flex;
+	flex-flow: column nowrap;
+	width: 40%;
+	height: 100vh;
+	align-items: right;
+	justify-content: right;
+}
+.acc-res{
+	padding-bottom: 20px;
+}
+.formulario{
+	width: 40%;
+	outline: none;
+}
+.formulario:focus{
+	box-shadow: 0 0 3px 1px #003245;
+}
+
+@media only screen and (max-width: 850px){
+	
+	.formulario{
+	width: 100%;
+	}
+
+	.information-cont{
+		display: none;
+	}
+	.barres{
+		display: inline;
+	}
+	.estilo-a{
+		display: none;
+	}
+	.registro-menu{
+		display: none;
+	}
+	.agenda-cont{
+		display: none;
+	}
+	.logoImg{
+		width: 200px;
+		height: 32px;
+	}
+	.fas{
+		width: 48px;
+		line-height: 48px;
+		font-size: 20px;
+	}
+	.tab-pilares{
+		display: grid;
+		grid-template-columns: repeat(auto-fill,minmax(300px,305px));
+		justify-content: center;
+	}
+	.slider-cont{
+		display: none;
+	}
+	.responsive-home{
+		display: inline;
+	}
+	.slider-3-info{
+		justify-content: center;
+		width: 100%;
+	}
+	.agenda2-cont{
+		padding-bottom: 70px;
+	}
+
+
+}

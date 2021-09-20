@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Example Pop-Up Icon Menus</title>
+	<link rel="stylesheet" type="text/css" href="styles/Popup-plugin.css">
+
+	<!--Use either font-awesome icons or Google icons with these links-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+		i {
+			font-size: 256px !important;
+			margin: 25px;
+		}
+
+		div{
+			display: block;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		#rebel{
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: orange;
+			float: left;
+		}
+
+		#empire {
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: #333;
+			clear: both;
+			float: left;
+		}
+
+		#firstOrder {
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: DarkRed;
+			clear: both;
+			float: left;
+		}
+
+		.divide {
+			width: 100%;
+			height: 550px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="rebel"><i class="fa fa-ra"></i>
+		<br> Rebel Alliance
+	</div>
+	<div class="divide"><a href="./Popup.html">Back to menus</a></div>
+	<div id="empire"><i class="fa fa-empire"></i><br>Empire</div>
+	<div class="divide"><a href="./Popup.html">Back to menus</a></div>
+	<div id="firstOrder"><i class="fa fa-first-order"></i><br>First Order</div>
+	<div class="divide"><a href="./Popup.html">Back to menus</a></div>
+	
+
+
+
+	<script src="scripts/jquery-3.2.1.min.js"></script>
+	<script src="scripts/jquery-ui.min.js"></script>
+	<script src="scripts/Popup-plugin.js"></script>
+	<script src="scripts/Popup.js"></script>
+</body>
+</html>
